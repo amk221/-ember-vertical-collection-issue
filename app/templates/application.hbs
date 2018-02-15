@@ -1,5 +1,30 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div id="scroller">
+  <table class="people">
+    <!--
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Tags</th>
+      </tr>
+    </thead>
+    -->
+    <tbody>
+      {{#vertical-collection people
+        containerSelector="#scroller"
+        estimateHeight=20
+        staticHeight=true
+        key="@index"
+        as |person|}}
 
-{{outlet}}
+        <tr>
+          {{#each columns as |col|}}
+            <td>
+              {{component col person=person}}
+            </td>
+          {{/each}}
+        </tr>
+
+      {{/vertical-collection}}
+    </tbody>
+  </table>
+</div>

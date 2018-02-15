@@ -1,0 +1,17 @@
+#scroller {
+  border: 1px solid gray;
+  height: 100px;
+  overflow: scroll;
+}
+
+.people {
+  border: 1px solid red;
+}
+
+.person-name {
+  border: 1px solid blue;
+}
+
+.person-tags {
+  border: 1px solid green;
+}
