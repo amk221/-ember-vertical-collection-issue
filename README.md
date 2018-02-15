@@ -1,5 +1,10 @@
 # ember-vertical-collection-issue
 
+`key=""` not working as expected
+
+<img src="https://dha4w82d62smt.cloudfront.net/items/1e0H2C3w0M3I0m043L0F/Screen%20Recording%202018-02-15%20at%2012.37%20pm.gif?X-CloudApp-Visitor-Id=e21e613ad7c27487c890a1f66daf2c3d&v=f1f7db76">
+
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
